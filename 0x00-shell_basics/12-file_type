@@ -1,3 +1,4 @@
 #!/bin/bash
-file /tmp/iamafile
+file_path="/tmp/iamafile"
+file_info=$(file "$file_path") 
 
